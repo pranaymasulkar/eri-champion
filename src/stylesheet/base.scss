@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.text-cyan {
+    color: #00FFF6;
+}
+.text-lightning-yellow {
+    color: #FDCA28;
+}
+.text-mine-shaft {
+    color: #212020;
+}
+.text-concrete {
+    color: #F2F2F2;
+}
+.text-black {
+    color: #000000;
+}
+.text-blumine {
+    color: #1C558D;
+}
+.text-tundora {
+    color: #4B4B4B;
+}
+
+
+/* ============================================== Background Colors ===================================================== */
+.bg-codgray {
+    background-color: #f3f3f3;
+}
+.bg-black {
+    background-color: #000000;
+}
+.bg-woodsmoke {
+    background-color: #121213;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+
+/* ============================================== Font Sizes ===================================================== */
+
+.fs-10 {
+    font-size: 10px;
+}
+.fs-11 {
+    font-size: 11px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-19 {
+    font-size: 19px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-21 {
+    font-size: 21px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-26 {
+    font-size: 26px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+.fs-29 {
+    font-size: 29px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-31 {
+    font-size: 31px;
+}
+.fs-32 {
+    font-size: 32px;
+}
+
+
+.font-Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-900 {
+    font-weight: 900;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+
+.btn-main {
+    border-color: #00FFF6;
+    background-color: #00FFF6;
+    color: #000000;
+}
+.btn-main:hover,
+.btn-main:focus,
+.btn-main.active,
+.btn-main.active:focus, 
+.btn-main:active:focus {
+    box-shadow: 0px 0px 20px 5px #FDCA28;
+    border-color: #00FFF6;
+    background-color: #00FFF6;
+    color: #FDCA28;
+} 
+

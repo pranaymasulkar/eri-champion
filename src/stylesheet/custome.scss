@@ -1,0 +1,173 @@
+@import "./base";
+header {
+    .navbar {
+        .header-conatiner {
+            border-bottom: 1px solid #8b8989;
+            transition:  all 0.3s ease-in-out;
+        }
+        .navbar-nav { 
+            .nav-link {
+                color: #ffffff;
+                text-transform: uppercase;
+            }
+            .nav-link:first-child {
+                margin-top: 9px;
+                margin-right: 5px;
+                padding: 0px;
+                border-radius: 50%;
+                border: 3px solid #ffffff;
+                height: 31px;
+                width: 31px;
+                text-align: center;
+            }
+        }
+    }
+    @media (max-width: 768px) { 
+        .navbar-nav {
+            background-color: #173364;
+            padding: 10px;
+            border-top: 1px solid #8b8989;
+        }
+    }
+    .header-bg {
+        background-color: #173364;
+        .header-conatiner {
+            border-bottom: 0;
+        }
+    }
+}
+.herosec {
+  background-image: url(../assets/img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .herolinks {
+    .nav-item {
+      .nav-link {
+        border-right: 2px solid #f1b718;
+        text-transform: capitalize;
+        color: #f1b718;
+        padding: 0px 10px;
+      }
+      &:last-child {
+        .nav-link {
+          border-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.circlecard {
+  padding: 20px;
+  margin-right: 50px;
+  background-color: transparent;
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 15px #7e7e7e61;
+  position: relative;
+  .conts {
+    min-height: 100px;
+    position: relative;
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 12.5%;
+      content: "";
+      height: 1px;
+      width: 75%;
+      background-color: #8abba7;
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    right: -33px;
+    top: 50%;
+    background-image: url(../assets/img/arowone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+  }
+}
+.circlecard:last-child {
+    &::after {
+        display: none;
+      }
+}
+@media (max-width: 768px) {
+  .circlecard {
+    margin: 60px auto;
+    &::after {
+        top: auto;
+        bottom: -41px;
+        left: 45%;
+        height: 20px;
+        width: 20px;
+        transform: rotate(90deg);
+      }
+  }
+}
+.circard-one {
+  background-image: linear-gradient(
+    to bottom,
+    #3baddd,
+    #309ecf,
+    #2490c0,
+    #1682b2,
+    #0274a4
+  );
+}
+.circard-two {
+  background-image: linear-gradient(
+    to bottom,
+    #3b9f76,
+    #2f9067,
+    #228158,
+    #14734a,
+    #02653c
+  );
+}
+
+.circard-three {
+  background-image: linear-gradient(
+    to bottom,
+    #f3c74e,
+    #e5b841,
+    #d6aa33,
+    #c89c25,
+    #ba8e15
+  );
+}
+
+.circard-four {
+  background-image: linear-gradient(
+    to bottom,
+    #da743c,
+    #cb652e,
+    #bd5721,
+    #ae4912,
+    #a03a02
+  );
+}
+
+.circard-five {
+  background-image: linear-gradient(
+    to bottom,
+    #959595,
+    #868686,
+    #777777,
+    #696969,
+    #5b5b5b
+  );
+}
+
+.iconsbg {
+  height: 50px;
+  width: 50px;
+}
+.border-bottom-4 {
+  border-bottom: 4px solid #000000;
+}
